@@ -6,8 +6,8 @@ var http = require('http');
 var app = express();
 
 app.get('/', function(request, response){
-//    var html = fs.readFileSync(filename).toString();
-    response.send(https://dl.dropboxusercontent.com/u/46105087/Xguox/websi);
+    var html = fs.readFileSync(filename).toString();
+    response.send(html);
 });
 
 var port = process.env.PORT || 5000;
